@@ -540,7 +540,7 @@ if test -z "$werror" ; then
     z_version=`cut -f3 -d. $source_path/VERSION`
     if test "$z_version" = "50" -a \
         "$linux" = "yes" ; then
-        werror="yes"
+        werror="no"
     else
         werror="no"
     fi
